@@ -16,6 +16,7 @@ const init = async () => {
   updateLogLevel();
   disableExtensionByUrlList();
 };
+
 init();
 
 let prevSelectedText = "";
